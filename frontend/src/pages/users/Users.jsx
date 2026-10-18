@@ -1,4 +1,4 @@
-import ListUsers from "../components/users/UsersList";
+import ListUsers from "../../components/users/UsersList";
 
 export default function Users() {
     return (

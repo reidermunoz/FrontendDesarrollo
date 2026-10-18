@@ -1,4 +1,4 @@
-import UserCreateForm from "../components/users/UserCreateForm";
+import UserCreateForm from "../../components/users/UserCreateForm";
 
 export default function CreateUser() {
     return (
