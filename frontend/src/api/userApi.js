@@ -11,3 +11,11 @@ export const getUsers = async () => {
 export const createUser = async (data) => {
     return await api.post('/users/', data);
 }
+
+export const deleteUser = async (id) => {
+    return await api.delete(`/users/${id}/`);
+}
+
+export const getRoles = async () => {
+    return await api.get('/roles/');
+}

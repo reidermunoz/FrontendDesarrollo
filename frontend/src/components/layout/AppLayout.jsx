@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Outlet } from "react-router-dom";
+import { Toaster } from "react-hot-toast";
 import Sidebar from "./Sidebar";
 import Header from "./Header";
 
@@ -16,6 +17,7 @@ export default function AppLayout() {
                     <Outlet />
                 </main>
             </div>
+            <Toaster position="top-right" />
         </div>
     )
 }
